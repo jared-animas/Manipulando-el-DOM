@@ -27,7 +27,7 @@ form {
 }
 
 .mainCard {
-  width: 30vw;
+  width: 300px;
   border-radius: 25px;
   background-color: #fff;
   padding: 15px;
@@ -127,9 +127,9 @@ form {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 500px) {
   .mainCard {
-    width: 80vw;
+    width: 400px;
   }
   
 }
