@@ -27,10 +27,10 @@ form {
 }
 
 .mainCard {
-  width: 40vw;
+  width: 30vw;
   border-radius: 25px;
   background-color: #fff;
-  padding: 25px;
+  padding: 15px;
 }
 
 .title {
@@ -124,4 +124,12 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .mainCard {
+    width: 80vw;
+  }
+  
 }
